@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(to right, rgba(52, 152, 219, 0.7), rgba(30, 39, 46, 0.7)), url("https://assets.kpmg.com/is/image/kpmg/groceries-and-food-items-kept-on-wooden-table-banner:cq5dam.web.1400.350");
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    /* Set the text color to black */
+    padding: 15px 0;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #2c2525;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background-color: #3498db;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.featured-recipes {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.featured-recipes h2 {
+    font-size: 2.5em;
+}
+
+.recipe-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin: 15px;
+    width: 300px;
+}
+
+.recipe:hover {
+    transform: scale(1.05);
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.recipe-info {
+    padding: 20px;
+}
+
+.recipe h3 {
+    margin: 0 0 10px;
+}
+
+.recipe p {
+    color: #555;
+}
+
+.recipe a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.recipe a:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #1e272e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
